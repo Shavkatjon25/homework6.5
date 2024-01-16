@@ -1,0 +1,14 @@
+    .active{
+        color: blue;
+        opacity: 1;
+    }
+    .active::before{
+        content:"" ;
+        display: block;
+        width: full;
+        height: 1px;
+        background: rgb(168, 233, 39);
+    }
+    a:hover{
+        color: rgba(250, 250, 250, 0.5);
+    }
